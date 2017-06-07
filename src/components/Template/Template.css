@@ -1,0 +1,26 @@
+.single-task{
+  width: 350px;
+  font-size: 2em;
+  margin-left: 15px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove-button{
+  font-size: 1.4em;
+  cursor: pointer;
+  color: grey;
+  letter-spacing: 1px;
+}
+
+ .completed-butt{
+   border-radius: 18px;
+   padding: 5px;
+   font-size: .5em;
+   cursor: pointer;
+   color: white;
+   letter-spacing: 1px;
+   background-color: red
+ }
