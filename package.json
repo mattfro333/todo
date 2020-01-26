@@ -6,9 +6,18 @@
     "react-scripts": "1.0.7"
   },
   "dependencies": {
+    "diff": "^4.0.2",
+    "handlebars": "^4.7.2",
+    "lodash": "^4.17.15",
+    "lodash.template": "^4.5.0",
+    "macaddress": "^0.2.9",
+    "merge": "^1.2.1",
+    "querystringify": "^2.1.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "react-router-dom": "^4.1.1"
+    "react-router-dom": "^4.1.1",
+    "sshpk": "^1.16.1",
+    "url-parse": "^1.4.7"
   },
   "scripts": {
     "start": "react-scripts start",
