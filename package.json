@@ -14,7 +14,7 @@
     "lodash.template": "^4.5.0",
     "macaddress": "^0.2.9",
     "merge": "^1.2.1",
-    "querystringify": "^2.0.0",
+    "querystringify": "2.0.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.1.1",
