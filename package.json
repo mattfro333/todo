@@ -20,6 +20,7 @@
     "merge": "^1.2.1",
     "nwmatcher": "^1.4.4",
     "querystringify": "2.0.0",
+    "randomatic": "^3.0.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.1.1",
