@@ -9,33 +9,33 @@ class Template extends Component {
     }
   }
 
-  done = () => {
- var parents = document.getElementsByClassName("single-task")
- for(var i = 0; i < parents.length; i++){
-  var parent = parents[i]
-  var firstChild = parent.getElementsByTagName('p')[0]
-  var secondChild = parent.getElementsByTagName('div')[0]
-
-   if(parents[i].firstChild.innerHTML === this.props.info.name){
-     if(this.state.completed){
-     firstChild.style.textDecoration = "none"
-     secondChild.style.backgroundColor = "red"
-     secondChild.innerHTML = "Uncompleted"
-     this.setState({
-       completed: false
-      })
-     } else {
-       firstChild.style.textDecoration = "line-through"
-       secondChild.style.backgroundColor = "lightgreen"
-       secondChild.innerHTML = "Completed!!"
-       this.setState({
-         completed: true
-        })
-   }
-  }
-}
-
-  }
+//  done = () => {
+//  var parents = document.getElementsByClassName("single-task")
+//  for(var i = 0; i < parents.length; i++){
+//   var parent = parents[i]
+//   var firstChild = parent.getElementsByTagName('p')[0]
+//   var secondChild = parent.getElementsByTagName('div')[0]
+//
+//    if(parents[i].firstChild.innerHTML === this.props.info.name){
+//      if(this.state.completed){
+//      firstChild.style.textDecoration = "none"
+//      secondChild.style.backgroundColor = "red"
+//      secondChild.innerHTML = "Uncompleted"
+//      this.setState({
+//        completed: false
+//       })
+//      } else {
+//        firstChild.style.textDecoration = "line-through"
+//        secondChild.style.backgroundColor = "lightgreen"
+//        secondChild.innerHTML = "Completed!!"
+//        this.setState({
+//          completed: true
+//         })
+//    }
+//   }
+// }
+//
+//   }
   render(){
     return (
     <div className="single-task">

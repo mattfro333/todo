@@ -20,16 +20,16 @@ class Todo extends Component {
         console.log(name);
     }
 
-    deleteTask = (name) => {
-      this.setState({
-        tasks: this.state.tasks.filter((obj)=>{
-          if(obj.name === name){
-            return false
-          }
-            return true
-        })
-      })
-    }
+    // deleteTask = (name) => {
+    //   this.setState({
+    //     tasks: this.state.tasks.filter((obj)=>{
+    //       if(obj.name === name){
+    //         return false
+    //       }
+    //         return true
+    //     })
+    //   })
+    // }
            render() {
              console.log(this.state.tasks)
              var tasks = this.state.tasks.map(obj => {
