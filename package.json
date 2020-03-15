@@ -6,6 +6,7 @@
     "react-scripts": "1.0.7"
   },
   "dependencies": {
+    "acorn": "5.7.4",
     "braces": "^2.3.1",
     "clean-css": "4.1.11",
     "cryptiles": "^4.1.2",
